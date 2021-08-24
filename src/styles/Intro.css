@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+
+.container{
+    margin: 10vh;
+    color: #F204FD;
+    font-size: 117px;
+    font-family: Orbitron;
+    font-weight: bold;
+}
+
+.subText{
+    font-size: 41px;
+    letter-spacing: 67px;
+    color: #00FFFF;
+    line-height: 2;
+}
