@@ -10,15 +10,15 @@ export default function AboutMe() {
                 <span>&lt;02&gt;</span><br></br>
             </Col>
         </Row>
-        <Row>
+        <Row id = "main">
             <Col lg = {2}></Col>
             <Col lg = {5}>INSERT IMAGE HERE</Col>
             <Col lg = {5}>
                 <Row>
-                    <Col lg = {12}>About Me</Col>
-                    <Col lg = {12}>Lets talk About Myself</Col>
-                    <Col lg = {12}> <br></br> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</Col>
-                    <Col lg = {12}><Button>Contact Me</Button> <Button>Download CV</Button></Col>
+                    <Col lg = {12} className = "aboutMeText">About Me</Col>
+                    <Col lg = {12} id = "talkAboutText">Lets talk About Myself</Col>
+                    <Col lg = {12} className = "aboutMeText"> <br></br> My name is Jacob Guiro, I am a Jersey-Born full-stack engineer now located in Houston, Texas. When I am not coding, you can find me socializing among friends or trying to learn a new talent/skill.</Col>
+                    <Col lg = {12}><br></br><Button>Contact Me</Button><Button id = "CV">Download CV</Button></Col>
                 </Row>
             </Col>
         </Row>

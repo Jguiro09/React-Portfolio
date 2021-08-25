@@ -23,14 +23,6 @@ export default function Intro() {
                     <Button className = "introButton">Contact Me</Button><br></br>
                 </Col>
             </Row>
-            {/* <div>
-                Hello. <br></br>
-                I'm <br></br>
-                Jacob Guiro
-            </div>
-            <div className = "subText">
-                Developer
-            </div> */}
         </Container>
         </div>
     )

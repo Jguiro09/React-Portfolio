@@ -12,7 +12,28 @@
 
 span {
     font-family: roboto;
+    font-size: 116px;
     font-weight: 50;
     color: #16EAF4;
     filter: drop-shadow(0px 5px 11px #16EAF4);
+}
+
+.aboutMeText{
+    font-size: 25px;
+    font-weight: normal;
+    color: white;
+    font-family: Nunito;
+}
+
+#talkAboutText{
+    font-size: 45px;
+}
+
+#CV{
+    float: right;
+}
+
+#main{
+    margin-top: 7vh;
+    margin-right: 5vw;
 }
