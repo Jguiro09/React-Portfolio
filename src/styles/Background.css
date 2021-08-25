@@ -1,19 +1,19 @@
-* {
+html,body{
+    background-color: black !important;
+    height: 100%;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html,
-body,
-#root {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
 }
 
-.canvas {
-    background: black;
-    z-index : -9999;
-    position: absolute;
+#root{
+    height: inherit;
 }

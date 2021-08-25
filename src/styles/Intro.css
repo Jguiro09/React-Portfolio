@@ -1,11 +1,17 @@
-.container{
+.container-fluid{
     z-index: 1;
-    position: absolute;
     color: #F204FD;
     font-size: 117px;
     font-family: Orbitron;
     font-weight: bold;
-    
+    position: absolute; 
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.mainText{
+    margin-top: 0vh !important;
 }
 
 .subText{
@@ -13,4 +19,25 @@
     letter-spacing: 67px;
     color: #00FFFF;
     line-height: 2;
+}
+
+span {
+    font-family: roboto;
+    font-weight: 50;
+    color: #16EAF4;
+    filter: drop-shadow(0px 5px 11px #16EAF4);
+}
+
+button{
+    background-color: transparent !important;
+    border-color: #F204FD !important;
+    font-size: 2rem !important;
+}
+
+button:active{
+    box-shadow: 0 0 0.25rem #00FFFF
+}
+
+.buttons{
+    margin-top: 9vh !important;
 }
