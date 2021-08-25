@@ -1,13 +1,11 @@
-body{
-    background-color: black;
-}
-
 .container{
-    margin: 10vh;
+    z-index: 1;
+    position: absolute;
     color: #F204FD;
     font-size: 117px;
     font-family: Orbitron;
     font-weight: bold;
+    
 }
 
 .subText{
