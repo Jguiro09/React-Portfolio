@@ -17,10 +17,10 @@ export default function Intro() {
                     </div>
                 </Col>
                 <Col lg = {5} className = "buttons">
-                    <Button size = "lg">About Me</Button><br></br>
-                    <Button>Skills</Button><br></br>
-                    <Button>Recent Work</Button><br></br>
-                    <Button>Contact Me</Button><br></br>
+                    <Button className = "introButton">About Me</Button><br></br>
+                    <Button className = "introButton">Skills</Button><br></br>
+                    <Button className = "introButton">Recent Work</Button><br></br>
+                    <Button className = "introButton">Contact Me</Button><br></br>
                 </Col>
             </Row>
             {/* <div>

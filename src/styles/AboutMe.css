@@ -1,0 +1,18 @@
+.container-fluid{
+    z-index: 1;
+    color: #F204FD;
+    font-size: 20px;
+    font-family: Orbitron;
+    font-weight: bold;
+    position: absolute; 
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+span {
+    font-family: roboto;
+    font-weight: 50;
+    color: #16EAF4;
+    filter: drop-shadow(0px 5px 11px #16EAF4);
+}

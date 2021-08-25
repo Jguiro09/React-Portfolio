@@ -1,4 +1,5 @@
 import Intro from './components/Intro'
+import AboutMe from './components/AboutMe'
 import {
   BrowserRouter as Router,
   Switch,
@@ -15,7 +16,7 @@ function App() {
   return (
     <Router>
       <Canvas />
-      <Intro />
+      <AboutMe />
     </Router>
   );
 }
