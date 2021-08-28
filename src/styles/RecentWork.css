@@ -1,0 +1,9 @@
+
+.carousel-indicators {
+    display: none !important;
+}
+
+body{
+    overflow: auto !important;
+    overflow-x: hidden !important;
+}

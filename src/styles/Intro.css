@@ -1,4 +1,4 @@
-.container-fluid{
+#introContainer{
     z-index: 1;
     color: #F204FD;
     font-size: 117px;
@@ -6,11 +6,11 @@
     font-weight: bold;
     position: absolute; 
     height: 100%;
-    top: 0;
+    top: 5vh;
     left: 0;
 }
 
-.subText{
+.intro-subText{
     font-size: 41px;
     letter-spacing: 67px;
     color: #00FFFF;
@@ -38,6 +38,6 @@ button{
     box-shadow: 0 0 0.25rem #00FFFF
 }
 
-.buttons{
+.intro-buttons{
     margin-top: 9vh !important;
 }

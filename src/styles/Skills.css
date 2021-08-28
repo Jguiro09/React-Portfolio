@@ -1,0 +1,28 @@
+#header{
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: Nunito
+}
+
+#subheader{
+    justify-content: center;
+    font-family: Orbitron;
+    font-size: 71px;
+}
+
+.pHeader{
+    text-align: center;
+    color: white;
+    margin-bottom: 5vh;
+}
+
+#icons{
+    justify-content: space-around;
+}
+
+.skillsImage{
+    width: 7vw !important;
+    margin-bottom: 2vh;
+}
