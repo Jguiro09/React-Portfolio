@@ -11,7 +11,7 @@ import React from '../img/React.png'
 
 export default function Skills() {
     return (
-        <Container fluid>
+        <Container fluid id = "Skills">
             <Row>
                 <Col lg={1}></Col>
                 <Col lg={11} className="mainText">

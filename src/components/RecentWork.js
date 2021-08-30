@@ -11,7 +11,7 @@ import 'react-multi-carousel/lib/styles.css';
 
 export default function RecentWork() {
     return (
-        <Container fluid className="recentWorkContainer">
+        <Container fluid id = "RecentWork" className="recentWorkContainer">
             <Row>
                 <Col lg={1}></Col>
                 <Col lg={11} className="mainText">

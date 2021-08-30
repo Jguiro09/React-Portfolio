@@ -5,7 +5,7 @@ import '../styles/ContactMe.css'
 
 export default function ContactMe() {
     return (
-    <Container fluid>
+    <Container fluid id = "Contact">
         <Row>
             <Col lg={1}></Col>
             <Col lg={11} className="mainText">
