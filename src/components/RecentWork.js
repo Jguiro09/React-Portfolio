@@ -92,7 +92,7 @@ export default function RecentWork() {
                             <Card.Body>
                                 <Card.Header>Weather Dashboard</Card.Header>
                                 <Card.Text>
-                                A CMS-style blog site where developers can publish their blog posts and comment on other developers’ posts as well. Utilizies Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
+                                A webpage that displays the daily (and 5 day) weather forecast for a city of your choosing. The program utilizes the OpenWeather API to retrieve weather data.
                                 </Card.Text>
                                 <a href = "https://github.com/Jguiro09/Weather-Dashboard"><Button variant="success" className = "recentButton">Source Code</Button></a>
                                 <a href = "https://jguiro09.github.io/Weather-Dashboard/"><Button variant="success" className = "recentDeployed recentButton">Deployed Site</Button></a>
