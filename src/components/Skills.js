@@ -1,4 +1,4 @@
-import { Container, Row, Col, Button } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import '../styles/Skills.css'
 import HTML from '../img/HTML.png'
 import JavaScript from '../img/JavaScript.png'
@@ -18,7 +18,7 @@ export default function Skills() {
                     <span>&lt;03&gt;</span><br></br>
                 </Col>
             </Row>
-            <Row id="main">
+            <Row>
                 <Row id = "header">Skills</Row>
                 <Row id = "subheader">What I Can Do</Row>
                 <Row id = 'icons'>

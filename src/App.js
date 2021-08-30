@@ -3,6 +3,7 @@ import AboutMe from './components/AboutMe'
 import Skills from './components/Skills'
 import RecentWork from './components/RecentWork';
 import Navbar from './components/Navbar'
+import ContactMe from './components/ContactMe'
 
 import {
   BrowserRouter as Router,
@@ -23,13 +24,11 @@ function App() {
     <Router>
       <Canvas />
       <Navbar />
-      <Switch>
-        <Route exact path="/" component={Intro} />
-        <Route exact path="/AboutMe" component={AboutMe} />
-        <Route exact path="/Skills" component={Skills} />
-        <Route exact path="/RecentWork" component={RecentWork} />
-        <Route exact path="/test" component={Navbar} />
-      </Switch>
+      <Intro />
+      <AboutMe />
+      <Skills />
+      <RecentWork />
+      <ContactMe />
     </Router>
   );
 }

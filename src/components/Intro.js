@@ -1,6 +1,5 @@
 import '../styles/Intro.css'
-import { Container, Row, Col, Button } from 'react-bootstrap'
-import { Link } from "react-router-dom";
+import { Container, Row, Col } from 'react-bootstrap'
 
 export default function Intro() {
     return(
@@ -15,12 +14,6 @@ export default function Intro() {
                     <div className = "intro-subText">
                     Developer
                     </div>
-                </Col>
-                <Col lg = {5} className = "intro-buttons">
-                    <Button className = "introButton"><Link to = "/AboutMe">About Me </Link></Button><br></br>
-                    <Button className = "introButton"><Link to = "/Skills">Skills </Link></Button><br></br>
-                    <Button className = "introButton"><Link to = "/RecentWork">Recent Work</Link></Button><br></br>
-                    <Button className = "introButton">Contact Me</Button><br></br>
                 </Col>
             </Row>
         </Container>

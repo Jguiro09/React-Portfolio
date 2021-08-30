@@ -1,6 +1,7 @@
 #navbarText{
     font-family: Nunito;
-    position: absolute;
+    z-index: 2;
+    position: fixed;
     width: 100%;
     top: 2vh;
 }

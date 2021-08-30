@@ -1,9 +1,33 @@
-
-.carousel-indicators {
-    display: none !important;
+.react-multi-carousel-item{
+    margin-right: 5vw !important;
 }
 
-body{
-    overflow: auto !important;
-    overflow-x: hidden !important;
+.RecentWorkCard{
+    height: 65vh;
+}
+
+.card-body{
+    background-color: #242222;
+}
+
+.card-img-top{
+    height: 30vh !important;
+}
+
+.card-header, .card-text{
+    font-weight: normal;
+    color: white;
+    font-family: Nunito;
+}
+
+.card-text{
+    line-height: 2;
+}
+
+.card-header{
+    font-weight: bold;
+}
+
+.recentDeployed{
+    float: right;
 }

@@ -22,6 +22,7 @@ class Canvas extends Component {
         console.log(width, height);
         return (
             <Particles
+                className = "particles"
                 {...this.state}
                 params={{
                     particles: {
