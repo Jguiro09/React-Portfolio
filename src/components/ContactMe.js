@@ -21,8 +21,6 @@ export default function ContactMe() {
                     <a href="mailto:jguiro09@gmail.com"><h3 id = "ContactHeader"> Jguiro09@gmail.com</h3></a>
                     <AiOutlineGithub />
                     <a href = "https://github.com/jguiro09"><h3 id = "ContactHeader">Jguiro09</h3></a>
-                    <AiOutlineNumber />
-                    <h3 id = "ContactHeader">732-857-7444</h3>
                     </Col>
                 </Row>
         </Row>
